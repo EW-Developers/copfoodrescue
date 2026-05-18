@@ -1,5 +1,5 @@
 const SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbx-4qvTpFNhyVNIt4i3_6ElJlMtYbI6uVXsOIHiFG8FwmEnVparX0njYxZ1unWLfRyn/exec";
+  "https://script.google.com/macros/s/AKfycbz7uwRhHslDH_-qIw9J5R0eaQxC0WKmNPYSvmlqoFzgC3KtiaItdrsxRjGq91R5VDul/exec";
 
 export async function callApi(payload) {
   const response = await fetch(SCRIPT_URL, {
